@@ -1,0 +1,47 @@
+QUICKFIND
+Array id[] = 0 1 2 3 4 5 6 7 8 9
+id[i]=i;
+Array = 0 1 2 3 4 5 6 7 8 9
+
+union(9,0)
+index= 0 1 2 3 4 5 6 7 8 9
+union= 0 1 2 3 4 5 6 7 8 9->0
+loop count=1;
+
+union(3,4)
+index= 0 1 2 3    4 5 6 7 8 9
+union= 0 1 2 3->4 4 5 6 7 8 0
+loop count=2;
+
+union(5,8)
+index= 0 1 2 3 4 5    6 7 8 9
+union= 0 1 2 4 4 5->8 6 7 8 0
+loop count=3;
+
+union(7,2)
+index=0 1 2 3 4 5 6 7    8 9
+union=0 1 2 4 4 8 6 7->2 8 0
+loop count=4;
+
+union(2,1)
+index= 0 1 2    3 4 5 6 7    8 9
+union= 0 1 2->1 4 4 8 6 2->1 8 0
+       0 1 1    4 4 1 6 1    8 0
+loop count=5;
+
+union(5,7)
+index= 0 1 2 3 4 5    6 7 8 9
+union= 0 1 1 4 4 7->1 6 1 8 0
+loop count=6;
+
+union(0,3)
+index= 0    1 2 3 4 5 6 7 8 9
+union= 3->4 1 1 4 4 1 6 1 8 0
+loop count=7;
+
+union(4,2)
+index= 0  1 2 3    4    5 6 7 8 9
+union= 4->1 1 4->1 4->1 1 1 6 8 0
+       1  1 1 1    1    1 6 1 8 0
+loop count=8;
+
