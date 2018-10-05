@@ -50,7 +50,6 @@ import java.util.*;
         Scanner sc = new Scanner (System.in);
         int[] array = {1000,-800,-200,234,435,3243,-3,2,1,12,-11,-1};
         int count = count(array);
-		System.out.print("Number of Three sum number sets are:");
-        System.out.println("\t" + count);
+        System.out.println(count);
     } 
 }
