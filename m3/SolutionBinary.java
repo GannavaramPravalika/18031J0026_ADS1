@@ -2,6 +2,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+public class SolutionBinary {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		Binary b = new Binary();
+		
+		
+		b.binarySearch();
+	}
+
+}
+
 class Binary
 {
 	Scanner sc = new Scanner(System.in);
