@@ -1,0 +1,15 @@
+Activity 5:
+
+What does the following code fragment do to the queue q?
+Stack stack = new Stack();
+
+while (!q.isEmpty())
+
+stack.push(q.dequeue());
+
+while (!stack.isEmpty())
+
+q.enqueue(stack.pop());
+
+Ans:
+In the above code if queue is not empty then elements,in queue are deleted and inserted into the stack and in the while loop till the stack becomes empty,elements in the stack are poped and inserted into the queue. 
