@@ -1,0 +1,20 @@
+Factorial with Recursion:
+
+Class Factorial
+{
+public void factorial(int f)
+{
+if(f==1)
+return 1;
+else
+return factorial(f-1);
+}
+public ststic void main(String aargs[])
+{
+ Scanner sc=new Scanner(System.in);
+ int f;
+ System.out.println("enter num to find factorial");
+ int res=factorial(f);
+System.out.println("result"+res);
+}
+}
