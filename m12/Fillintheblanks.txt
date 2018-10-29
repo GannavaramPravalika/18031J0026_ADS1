@@ -1,0 +1,22 @@
+Fill in the blanks-1
+Blank1-1
+     2-k/2
+     3-k
+     4-k
+     5-k/2
+     6-k/2
+Fill in the blanks-2
+Blank1-N
+     2-2*k
+     3-N
+     4-j
+     5-j+1
+     6-j++
+     7-k
+     8-j
+     9-k
+     10-j
+Fill in the blanks-3
+Blank1-  A E E I G E S S R T O M R V
+     2-  E and E  are child nodes of node A
+     3-  I is the root node after deleteMin() called 5 times 

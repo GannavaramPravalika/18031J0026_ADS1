@@ -1,0 +1,1 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with quick sort.
