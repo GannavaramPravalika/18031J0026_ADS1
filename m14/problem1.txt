@@ -1,0 +1,3 @@
+Learning by doing-1
+Suppose that your application will have a huge number of insert operations, but only a few remove the maximum operations. Which priority-queue implementation do you think would be most effective: heap, unordered array, ordered array?
+Ans. Unordered array, because insert is constant time. 
