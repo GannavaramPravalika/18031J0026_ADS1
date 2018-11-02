@@ -98,7 +98,7 @@ How many compares (key compares) does it take to insert the last element(31) in 
 3
 
 How many compares (key compares) does it take when we call get(8) method ?
-3
+2
 
 LEARNING BY DOING:
 
@@ -108,7 +108,7 @@ a. 10, 9, 8, 7, 6, 5
 Ans) yes
 
 b. 4, 10, 8, 7, 3, 5
-Ans) no
+Ans) yes
 
 c. 1, 10, 2, 9, 3, 8, 4, 7, 6, 5
 Ans) yes. 
