@@ -1,0 +1,11 @@
+Learning by doing-2
+Draw a table that compare the worst, best and average cases of insertion, searching and deletion of Linear search symbol table, Binary search symbol table, Binary search tree and 2-3 Tree.
+
+                                 worst case                                 Average case
+
+                           insert | delete | search                        insert        | delete   | search
+linear search               N     |    N   |   N                             N           |   N/2    |  N/2
+Binary search               N     |    N   |   log N                         N/2         |   N/2    |  log N
+Binary search Tree          N     |    N   |    N                           1.39logN     |   N/2    |  1.39 logN
+2-3 Tree                   clogN  | clogN  |  clogN                           clogN      |  clogN   |   clogN
+

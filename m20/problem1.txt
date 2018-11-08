@@ -1,0 +1,54 @@
+Learning by doing-1
+Draw the 2-3 tree that results when you insert the keys E A S Y Q U E S T I O N, in that order into an initially empty 2-3 tree.
+Answer:
+step1 E:                         E
+                                
+step2 A:                        A E 
+
+step3 S:                       A E S
+
+                                 E
+                                / \
+                               A   S
+
+step4 Y:                         E
+                                / \
+                               A   S Y
+
+step5 Q:                           E
+                                 /   \
+                                A    Q S Y
+
+step6 U:                            E S
+                                  /  |  \
+                               A     Q   U Y
+
+step6 E:                            E S
+                                   /  | \
+                                A E   Q   U Y
+
+step7 S:                              E S
+                                    /  |   \
+                                  A E  Q S  U Y
+
+step8 T:                              E S
+                                    /   |  \
+                                A E  Q S T U Y
+
+step9 I:                               E S
+                                      / |   \
+                                  A E  I Q S  T U Y
+
+step10 O:                                  E  Q  S
+                                        /  |   |  \
+                                     A E  I O  S  T U Y
+
+step11 N:                                    E   Q     S
+                                           /   |     |  \
+                                        A E  I N O   S  T U Y
+                                              
+                                                      Q
+                                                 /        \
+                                                E           S
+                                             /    \        /  \
+                                           A E   I N O     S   T U Y
