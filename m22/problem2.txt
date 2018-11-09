@@ -1,0 +1,2 @@
+Learning by doing-2
+Suppose that the keys A through G , with the hash values given below, are inserted in some order into an initially empty table of size 7 using a linear-probing table (with no resizing for this problem). Which of the following could not possibly result from inserting these keys?
